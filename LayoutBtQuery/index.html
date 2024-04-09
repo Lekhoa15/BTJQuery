@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>JQ TRAIN</title>
+   
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+   
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+<body>
+
+    <div id="header">
+        <div class="wraper">
+            <h1>HEADER</h1>
+        </div><!-- .wraper -->
+    </div><!-- #header -->
+
+    <div id="content">
+        
+        <div class="wraper">
+ 
+            <div class="sideBar">
+                <p class="sidetxt">SIDEBAR</p>
+            </div>
+            <div id="sidebar">
+                <!-- Thẻ div để chứa ảnh -->
+                <div id="selectedImageContainer"></div>
+                <!-- Các phần tử khác trong sidebar -->
+            </div>    
+            <div class="mainContent">
+
+                <div class="area area1">
+                    <h2 class="areaTitle">MENU</h2>
+                    <ul class="menu">
+                        <li><a href="#Box">Box</a></li>
+                        <li><a href="#Google">Google</a>
+                            <ul>
+                                <li><a href="#Gmail">Gmail</a></li>
+                                <li><a href="#Maps">Maps</a></li>
+                                <li><a href="#Drive">Drive</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#Form">Form</a></li>
+                        <li><a href="#Youtube">Youtube</a></li>
+                        <li><a href="#Yandex">Yandex</a></li>
+                    </ul>
+                </div><!-- .area1 -->
+
+                <div id="area2" class="area area2">
+                    <h2 class="areaTitle">Box</h2>
+                    <div class="wrapBox">
+                        <div class="box box1">
+                            <h3>Box Title</h3>
+                            <div class="boxContent">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            </div>
+                        </div>
+                        <div class="box box2">
+                            <h3>Box Title Text</h3>
+                            <div class="boxContent">
+                                <p>Hãy nhập gì đó</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- .area2 -->
+
+                <div id="area3" class="area area3">
+                    <h2 class="areaTitle">Form</h2>
+                    <div class="formContact">
+                        <form action="" method="post">
+                            <table class="boxform1">
+                                <!-- Các trường nhập dữ liệu -->
+                                <tr>
+                                    <th colspan="2" >BoxText<span class="req">必須</span></th>
+                                    <td><input type="text" class="compname" name="boxText" value=""></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">バンド名<span class="req">必須</span></th>
+                                    <td>
+                                        <select class="listlink" name="bandName">
+                                            <option value="">-SELECT-</option>
+                                            <option value="http://google.com">Google</option>
+                                            <option value="http://yahoo.com">Yahoo</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">Tỉnh thành<span class="req">必須</span></th>
+                                    <td>
+                                        <select class="listlink1" name="bandName">
+                                            <option value="">-SELECT-</option>
+                                            <option value="Hue">Huế</option>
+                                            <option value="Đà Nẵng">Đà Nẵng</option>
+                                            <option value="Hue">Hà Nội</option>
+                                            <option value="Đà Nẵng">Sài Gòn</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <!-- Các trường khác -->
+                                <tr>
+                                    <th rowspan="2">代表者</th>
+                                    <th>郵便番号<span class="req">必須</span></th>
+                                    <td><span class="txtfi">〒</span><input class="w86" type="text" name="postalCode1" value=""><span class="txtmid">-</span><input class="w86" type="text" name="postalCode2" value=""></td>
+                                </tr>
+                                <tr>
+                                    <th>住所<span class="req">必須</span></th>
+                                    <td><input type="text" name="address" value=""></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="2">紹介文（PR）<span class="req">必須</span></th>
+                                    <td><textarea name="prText"></textarea></td>
+                                </tr>
+                            </table>
+                            <p class="titletable2">その他提出物</p>
+                            <table class="boxform2">
+                                <!-- Trường 演奏映像 -->
+                                <tr>
+                                    <th>演奏映像<span class="req">必須</span></th>
+                                    <td>
+                                        <label for="url1">URL 1:</label>
+                                        <input type="text" id="url1" name="url1"><br><br>
+                                        <label for="url2">URL 2:</label>
+                                        <input type="text" id="url2" name="url2"><br><br>
+                                        <label><input type="checkbox" id="sendDvd" name="sendDvd">DVDを郵送します</label><br><br>
+                                    </td>
+                                </tr>
+                                <!-- Các trường khác -->
+                                <tr>
+                                    <th>バンド写真<span class="req">必須</span></th>
+                                    <td>
+                                        <span class="cboxitem"><input type="checkbox" name="dvd[]" value="DVD1">DVD1</span>
+                                        <span class="cboxitem"><input type="checkbox" name="dvd[]" value="DVD2">DVD2</span>
+                                        <span class="cboxitem"><input type="checkbox" name="dvd[]" value="DVD3">DVD3</span>
+                                        <span class="cboxitem"><input type="checkbox" name="dvd[]" value="DVD4">DVD4</span>
+                                        <br><br>
+                                    </td>
+                                </tr>
+                                <!-- Thông báo và nút submit -->
+                                <tr>
+                                    <th>エントリー費</th>
+                                    <td><p class="textfiled"><span>5,000円</span>応募フォームを受付後、振込先をメールにてお知らせ致します。<br>※バンド名、もしくは代表者氏名にてお振り込みください。</p></td>
+                                </tr>
+                                <tr>
+                                    <th>Chọn ảnh</th>
+                                    <td>
+                                        <input type="file" id="imageInput" name="image">
+                                    </td>
+                                    <tr>
+                                        <th>Ảnh cá nhân :</th>
+                                        <td id="selectedImage"></td>
+                                    </tr>
+                                    
+                                </tr>
+                                
+                            </table>
+                            <div class="formBtn">
+                                <input type="button" id="submitButton" value="SUBMIT">
+                           
+
+
+                            </div>
+                            <!-- Hiển thị kết quả -->
+                            <div class="Sub" id="confirmationMessage" title="Confirmation Message"></div>
+                        </form>
+                    </div>               
+                </div><!-- .area3 -->
+
+                <div class="area area4">
+                    <h2 class="areaTitle">Tab</h2>
+                    <ul class="tabBtn">
+                        <li class="tab-element"  name ="tab1" ><a href ="#tab-1" class = "tab-element_link active" class="active"  href="">TAB1</a></li>
+                        <li class="tab-element"  name ="tab-2" ><a href = "#tab-2" class = "tab-element_link" href="">TAB2</a></li>
+                        <li class="tab-element"  name ="tab-3" ><a href = "#tab-3" class = "tab-element_link" href="">TAB3</a></li>
+                    </ul>
+                    <div class="tabContent">
+                        <div id="tab-1" class="tabItem active">
+                            <h2>TAB1</h2>
+                            <p>tab content 1 tab content 1 tab content 1 tab content 1 tab content 1 tab content 1 tab content 1 tab content 1 tab content 1tab content 1 tab content 1 tab content 1 tab content 1 tab content 1 tab content 1tab content 1 tab content 1 tab content 1 tab content 1 tab content 1 tab content 1tab content 1 tab content 1 tab content 1 tab content 1 tab content 1 tab content 1tab content 1 tab content 1 tab content 1 tab content 1 tab content 1 tab content 1</p>
+
+                        </div>
+                        <div id="tab-2" class="tabItem">
+                            <h2>TAB2</h2>
+                          <p>tab content 2 tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2 tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2tab content 2</p>
+                        </div>
+                        <div id="tab-3" class="tabItem">
+                            <h2>TAB3</h2>
+                            <p>tab content 3  tab content 3tab content 3tab content 3tab content 3tab content 3tab content 3v tab content 3  tab content 3tab content 3tab content 3tab content 3tab content 3tab content 3vtab content 3  tab content 3tab content 3tab content 3tab content 3tab content 3tab content 3vtab content 3  tab content 3tab content 3tab content 3tab content 3tab content 3tab content 3vtab content 3  tab content 3tab content 3tab content 3tab content 3tab content 3tab content 3vtab content 3  tab content 3tab content 3tab content 3tab content 3tab content 3tab content 3vtab content 3  tab content 3tab content 3tab content 3tab content 3tab content 3tab content 3vtab content 3  tab content 3tab content 3tab content 3tab content 3tab content 3tab content 3v </p>
+                        </div>
+                    </div>
+                    
+                </div><!-- .area4 -->
+                <script src="js/main.js"></script>
+
+                <div style="height: 1000px"></div>
+
+            </div><!-- .mainContent -->
+
+        </div>
+        <!-- .wraper -->
+        
+    </div><!-- #content -->
+        
+    <div id="footer">
+        <p id="copyright">Copyright © 2008 asahi-‐kankyo.com, All Rights Reserved.</p>
+    </div><!-- #footer -->
+
+</body>
+</html>
+
+

@@ -1,0 +1,331 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* index.css
+*
+***************************************************************************/
+
+.area {
+    width: 100%;
+    margin-bottom: 100px;
+}
+.area .areaTitle {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 1px;
+    margin-bottom: 18px;
+}
+
+
+.area1 .menu {
+    width: 50%;
+}
+.area1 .menu li {
+    display: block;
+}
+.area1 .menu li a {
+    display: block;
+    padding: 5px 0;
+    border-bottom: 1px solid #999999;
+    text-decoration: none;
+}
+.area1 .menu li a:hover {
+    text-decoration: underline;
+}
+.area1 .menu li a span {
+    display: block;
+    margin-top: 2px;
+    color: green;
+}
+.area1 .menu li ul {
+    /*display: none;*/
+}
+.area1 .menu li ul li {
+    padding-left: 20px;
+}
+
+
+.area2 {
+
+}
+.area2 .wrapBox {
+    width: 100%;
+    overflow: hidden;
+}
+.area2 .wrapBox .box {
+    width: 48%;
+    float: left;
+    border: 1px solid #999999;
+}
+.area2 .wrapBox .box+.box {
+    float: right;
+}
+.area2 .wrapBox .box h3 {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #999999;
+    cursor: pointer;
+}
+.area2 .wrapBox .box .boxContent {
+    width: 100%;
+    padding: 15px;
+    color: #000;
+    opacity: 1;
+}
+
+
+.area3 {
+
+}
+
+.formContact {
+    width: 100%;
+    margin: 28px 0 120px;
+}
+
+.formContact table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+.formContact table th, .formContact table td {
+    border-bottom: 1px solid #9f9f9f;
+    font-size: 14px;
+    padding: 9px 0;
+}
+.formContact table th {
+    background-color: #f9f9f9;
+    font-weight: normal;
+    padding: 11px 0 7px;
+    width: 96px;
+    padding-right: 13px;
+}
+.formContact table.boxform2 th {
+    width: 201px;
+}
+.formContact table th[rowspan="4"] {
+    border-right: 1px solid #9f9f9f;
+}
+.formContact table th[colspan] {
+    padding-right: 13px;
+}
+.formContact table th[rowspan] {
+    width: 105px;
+    padding-right: 0;
+}
+.formContact table th .req {
+    font-size: 9.48px;
+    color: #FFFFFF;
+    background-color: #e52111;
+    float: right;
+    padding: 0 1.5px;
+    margin-top: 2px;
+}
+
+.formContact table td {
+    padding: 8px 35px 8px 30px
+}
+.formContact table td input[type="text"], 
+.formContact table td input[type="email"],
+.formContact table td textarea {
+    border: 1px solid #cccccc;
+    background-color: #f9f9f9;
+    font-size: 11px;
+    padding: 2px 5px;
+    width: 100%;
+}
+.formContact table td textarea {
+    height: 152px;
+}
+.formContact table td input.w73 {
+    width: 73px;
+}
+.formContact table td input.w86 {
+    width: 86px;
+}
+.formContact table td input.w310 {
+    width: 310px;
+}
+.formContact table td .txtla {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 18px;
+}
+.formContact table td .txtfi {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 6px 0 8px;
+}
+.formContact table td .txtmid {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.formContact table td .line {
+    display: block;
+    margin-bottom: 12px;
+}
+.formContact table td .line:last-child {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.formContact table td .cboxitem {
+    display: inline-block;
+    margin-right: 22px;
+}
+.formContact table td input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: -7%;
+    margin-right: 10px;
+}
+
+.formContact table td .textfiled {
+    font-size: 12.6px;
+    line-height: 1.4;
+}
+.formContact table td .textfiled span {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.formContact .titletable2 {
+    display: block;
+    font-size: 16px;
+    margin: 20px 0 6px;
+}
+
+.formContact .textLast {
+    display: block;
+    color: #000000;
+    font-size: 20px;
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+.formContact .formBtn {
+    width: 100%;
+    margin-top: 45px;
+    text-align: center;
+}
+.formContact .formBtn input {
+    width: 100%;
+    display: inline-block;
+    border: none;
+    background: #231816;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px 0 4px;
+    font-size: 16px;
+}
+.formContact.Sub{
+    background-color: #e52111;
+}
+
+
+.area4 {
+
+}
+.area4 .tabBtn {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.area4 .tabBtn li {
+    width: 25%;
+    display: inline-block;
+}
+.area4 .tabBtn li+li {
+    margin-left: 2%;
+}
+.area4 .tabBtn li a {
+    display: block;
+    color: #000;
+    
+   
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 15px 0;
+    border: 2px solid #000;
+}
+.area4 .tabBtn li a:hover, .area4 .tabBtn li a.active {
+    background-color: #000;
+    color: #FFF;
+}
+.area4 .tabContent {
+    width: 100%;
+    border: 2px solid #000;
+    margin-top: 20px;
+}
+.area4 .tabContent .tabItem {
+    width: 100%;
+    padding: 15px;
+    display: none;
+}
+.area4 .tabContent .tabItem.active {
+    width: 100%;
+    padding: 15px;
+    display: block;
+}
+.area4 .tabContent .tabItem h2{
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 2em;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline;
+  }
+  
+  .menu a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .menu a.active {
+    background-color: #ddd;
+  }
+  
+  .menu ul ul {
+    display: none; /* Ẩn menu con ban đầu */
+  }
+  
+  .menu ul ul li {
+    display: block;
+  }
+  
+  .menu ul li:hover > ul {
+    display: block; 
+  }
+  .menu a:active {
+    color: red; 
+    text-decoration: underline; 
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 200px; 
+    z-index: 999; 
+}
+
+.sideBar {
+}
+
+
+
+  

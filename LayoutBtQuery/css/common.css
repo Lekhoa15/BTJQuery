@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+@import url("base.css");
+
+/***************************************************************************
+ *
+ * COMMON STYLE
+ *
+ ***************************************************************************/
+
+body {
+    background-color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000000;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style: none;
+}
+.wraper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+
+#header {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f1f1f1;
+}
+#header h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#content {
+    width: 100%;
+    padding: 30px 0;
+}
+
+#content .sideBar {
+    width: 200px;
+    border: 1px solid #000;
+    float: left;
+    min-height: 200px;
+}
+#content .sideBar .sidetxt {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    padding: 120px 0;
+    font-weight: bold;
+}
+
+
+#content .mainContent {
+    width: 970px;
+    border: 1px solid #000;
+    padding: 10px;
+    float: right;
+}
+
+
+#footer {
+    width: 100%;
+    padding: 5px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+#confirmationMessage p {
+    font-size: 20px; /* Tăng kích thước phông chữ */
+    line-height: 1.8; /* Tăng khoảng cách giữa các dòng */
+    color: #333;
+    /* margin-bottom: 15px; Tăng khoảng cách dưới của các đoạn văn bản */
+}
+
+#confirmationMessage table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#confirmationMessage table td {
+    padding: 10px; /* Tăng khoảng cách giữa các ô trong bảng */
+    border-bottom: 1px solid #ddd;
+}
+
+#confirmationMessage table td:first-child {
+    font-weight: bold;
+    width: 40%; /* Điều chỉnh chiều rộng của cột đầu tiên trong bảng */
+}
+
+#confirmationMessage #closeBtn {
+    position: absolute;
+    top: 20px; /* Điều chỉnh vị trí của nút đóng */
+    right: 20px; /* Điều chỉnh vị trí của nút đóng */
+    cursor: pointer;
+    font-size: 28px; /* Tăng kích thước phông chữ của nút đóng */
+    color: #666;
+}
+
+#confirmationMessage #closeBtn:hover {
+    color: #4CAF50;
+}

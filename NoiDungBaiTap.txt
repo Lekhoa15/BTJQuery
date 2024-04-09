@@ -1,0 +1,22 @@
+﻿Yêu cầu bài tập Jquery
+
+1. https://gyazo.com/6e0a228c01ea8e0017b30154b7ca78fb
+  - 1a. Viết js cho tab này hoạt động
+  - 1b. Ở trang page.html có các menu tab hay setting sao cho nhấn vào menu tab nào thì nó sẽ chuyển qua trang index và active tab đó lên
+
+2. https://gyazo.com/0109a3537e80f60c353b6d9a39451c81 : Setting sao cho khi scroll xuống lúc mép trên của màng hình quá mép trên của sidebar thì sidebar sẽ chạy theo màng hình
+
+3. https://gyazo.com/6b898aadfd04035adbef31c67f67dcad : Khi nhập giá trị ở trường BoxText của Form thì phần Box Title Text của Box sẽ tự hiển thị giá trị đã nhập kèm theo số ký tự và số từ như mẫu ở layout, Nếu nhập giá trị là close thì nội dung của phần Box Title sẽ đóng lại và mở ra khi không có giá trị đó
+
+4. https://gyazo.com/ec25ea1f57d28172b03c76ebe3700396
+  - 4a. Các check box DVD1 đến DVD5 setting để chỉ chọn dc 1 cái duy nhất thôi
+  - 4b. Setting làm sao khi nhập input text URL1 hoặc UR2 thì không chọn dc DVDを郵送します và ngược lại
+
+5. https://gyazo.com/7d8162daa719f416ce1c0aeecab88800 : Khi nhấn nút submit thì các input sẽ biến mất chỉ hiển thị kết quả đã nhập ra form thôi, đối với checkbox thì các kết quả được ngăn cách bởi dấu phẩy, đối với trường 演奏映像 thì 1 là hiện url1 hoặc url2 hoặc cả 2 url dc ngăn bởi dấu phẩy và có gắn link hoặc là giá trị checkbox thôi
+
+
+Lưu ý:
+- Không hiểu yc thì hỏi nhé
+- Có thể đặt thêm class hoặc giá trị name nếu cần
+
+
